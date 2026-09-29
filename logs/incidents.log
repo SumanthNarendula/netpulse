@@ -1,0 +1,38 @@
+2026-09-29 10:15:22 | WARNING | PORT | Port 8080 unavailable
+2026-09-29 10:15:23 | INFO    | PROCESS | Application process not responding
+2026-09-29 10:15:25 | ACTION  | SERVICE | Restarting application
+2026-09-29 10:15:31 | SUCCESS | PORT | Port 8080 restored
+2026-09-29 16:41:53 | WARNING | UPTIME | Command 'uptime' unavailable
+2026-09-29 16:41:53 | INFO | CPU | CPU usage normal: 0%
+2026-09-29 16:41:53 | WARNING | MEMORY | High memory usage detected: 100% (Limit: 85%)
+2026-09-29 16:41:53 | WARNING | DISK | High disk usage detected: 4584376% (Limit: 80%)
+2026-09-29 16:41:53 | INFO | PROCESS | Total active processes: 6
+2026-09-29 16:41:54 | ERROR | PING | Network ping to 8.8.8.8 failed - host unreachable
+2026-09-29 16:41:54 | INFO | DNS | DNS resolution for google.com successful
+2026-09-29 16:41:54 | INFO | PORT | Port 8080 on 127.0.0.1 is open and responding
+2026-09-29 16:41:57 | ERROR | HTTP | Application endpoint http://127.0.0.1:8080 unavailable (HTTP Code: 403)
+2026-09-29 16:41:57 | ERROR | SERVICE | Service nginx is stopped
+2026-09-29 16:41:58 | INFO | PROCESS | Application process 'nginx' not responding / missing
+2026-09-29 16:41:58 | INFO | DIAGNOSIS | Systemctl not available for service status check
+2026-09-29 16:41:58 | ACTION | SERVICE | Attempting automated restart for service: nginx
+2026-09-29 16:42:03 | SUCCESS | PORT | Port 8080 and Service nginx restored successfully
+2026-09-29 16:42:03 | SUCCESS | SERVICE | Recovery verified: nginx is fully operational
+2026-09-29 10:15:22 | ERROR | SERVICE | Service test-service is stopped
+2026-09-29 16:42:35 | INFO | PROCESS | Application process 'test-service' not responding / missing
+2026-09-29 16:42:35 | INFO | DIAGNOSIS | Systemctl not available for service status check
+2026-09-29 16:42:35 | ACTION | SERVICE | Attempting automated restart for service: test-service
+2026-09-29 16:42:40 | SUCCESS | PORT | Port 8080 and Service test-service restored successfully
+2026-09-29 16:42:40 | SUCCESS | SERVICE | Recovery verified: test-service is fully operational
+2026-09-29 16:42:41 | ERROR | PING | Network ping to 8.8.8.8 failed - host unreachable
+2026-09-29 16:42:41 | INFO | DNS | DNS resolution for google.com successful
+2026-09-29 16:42:43 | ERROR | PORT | Port 9999 on 127.0.0.1 unavailable
+2026-09-29 16:42:45 | ERROR | HTTP | Application endpoint http://127.0.0.1:9999/invalid unavailable (HTTP Code: 000)
+2026-09-29 16:42:45 | WARNING | UPTIME | Command 'uptime' unavailable
+2026-09-29 16:42:45 | INFO | CPU | CPU usage normal: 0%
+2026-09-29 16:42:46 | WARNING | MEMORY | High memory usage detected: 100% (Limit: 85%)
+2026-09-29 16:42:46 | WARNING | DISK | High disk usage detected: 4580564% (Limit: 1%)
+2026-09-29 16:42:46 | INFO | PROCESS | Total active processes: 6
+2026-09-29 16:42:46 | ERROR | PING | Network ping to 192.0.2.254 failed - host unreachable
+2026-09-29 16:42:46 | INFO | DNS | DNS resolution for google.com successful
+2026-09-29 16:42:48 | ERROR | PORT | Port 9999 on 127.0.0.1 unavailable
+2026-09-29 16:42:51 | ERROR | HTTP | Application endpoint http://127.0.0.1:9999/invalid unavailable (HTTP Code: 000)

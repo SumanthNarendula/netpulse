@@ -1,0 +1,20 @@
+==================================================================
+                 NETPULSE SYSTEM HEALTH REPORT                    
+==================================================================
+Timestamp            : 2026-09-29 16:41:52
+Overall System State : RECOVERED
+------------------------------------------------------------------
+System Resources     : WARNING
+Network & Endpoints  : FAIL
+Monitored Service    : FAIL (nginx)
+------------------------------------------------------------------
+Configured Limits:
+- CPU Limit          : 90%
+- Memory Limit       : 85%
+- Disk Limit         : 80%
+- Target Host/Port   : 127.0.0.1:8080
+- Target Endpoint    : http://127.0.0.1:8080
+- Target Service     : nginx
+------------------------------------------------------------------
+Log File Location    : /c/Users/sumanth narendula/.gemini/antigravity-ide/scratch/netpulse/logs/incidents.log
+==================================================================

@@ -1,0 +1,5 @@
+# NetPulse Git Ignore
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
